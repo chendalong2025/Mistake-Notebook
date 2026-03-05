@@ -1,0 +1,4 @@
+com.mistakenotebook.test.app-androidTest-0 D:\github\Mistake-Notebook\android-Kotlin\app\build\generated\res\resValues\androidTest\debug
+com.mistakenotebook.test.app-mergeDebugAndroidTestResources-1 D:\github\Mistake-Notebook\android-Kotlin\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.mistakenotebook.test.app-mergeDebugAndroidTestResources-2 D:\github\Mistake-Notebook\android-Kotlin\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.mistakenotebook.test.app-merged_res-3 D:\github\Mistake-Notebook\android-Kotlin\app\build\intermediates\merged_res\debugAndroidTest

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">错题库</string>
+    <string name="tab_add">录入题目</string>
+    <string name="tab_quiz">开始做题</string>
+</resources>

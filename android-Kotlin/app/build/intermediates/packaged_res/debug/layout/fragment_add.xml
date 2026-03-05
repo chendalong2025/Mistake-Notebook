@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <!-- Tab 切换栏 -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="52dp"
+        android:orientation="horizontal"
+        android:background="@color/surface"
+        android:padding="8dp">
+        <Button android:id="@+id/tab_single"
+            android:layout_width="0dp" android:layout_height="match_parent"
+            android:layout_weight="1" android:text="逐题录入"
+            android:textSize="15sp" android:textStyle="bold"
+            android:background="@android:color/transparent"/>
+        <Button android:id="@+id/tab_batch"
+            android:layout_width="0dp" android:layout_height="match_parent"
+            android:layout_weight="1" android:text="批量导入"
+            android:textSize="15sp" android:textStyle="bold"
+            android:background="@android:color/transparent"/>
+    </LinearLayout>
+
+    <!-- 逐题录入卡片（默认显示） -->
+    <ScrollView android:id="@+id/card_single"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical" android:padding="20dp">
+
+            <!-- 题目内容 -->
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="题目内容" android:textSize="14sp" android:textStyle="bold"
+                android:textColor="@color/text_muted" android:layout_marginBottom="6dp"/>
+            <EditText android:id="@+id/et_content"
+                android:layout_width="match_parent" android:layout_height="120dp"
+                android:gravity="top|start" android:textSize="16sp"
+                android:background="@color/surface" android:padding="14dp"
+                android:layout_marginBottom="20dp" android:hint="请输入题目内容……"
+                android:inputType="textMultiLine"/>
+
+            <!-- 选项区域 -->
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="四个选项" android:textSize="14sp" android:textStyle="bold"
+                android:textColor="@color/text_muted" android:layout_marginBottom="8dp"/>
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="52dp"
+                android:orientation="horizontal" android:layout_marginBottom="8dp">
+                <TextView android:layout_width="36dp" android:layout_height="match_parent"
+                    android:text="A" android:gravity="center" android:textSize="16sp"
+                    android:textStyle="bold" android:textColor="@color/primary"/>
+                <EditText android:id="@+id/et_option_a"
+                    android:layout_width="0dp" android:layout_height="match_parent"
+                    android:layout_weight="1" android:textSize="15sp"
+                    android:background="@color/surface" android:padding="12dp"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="52dp"
+                android:orientation="horizontal" android:layout_marginBottom="8dp">
+                <TextView android:layout_width="36dp" android:layout_height="match_parent"
+                    android:text="B" android:gravity="center" android:textSize="16sp"
+                    android:textStyle="bold" android:textColor="@color/primary"/>
+                <EditText android:id="@+id/et_option_b"
+                    android:layout_width="0dp" android:layout_height="match_parent"
+                    android:layout_weight="1" android:textSize="15sp"
+                    android:background="@color/surface" android:padding="12dp"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="52dp"
+                android:orientation="horizontal" android:layout_marginBottom="8dp">
+                <TextView android:layout_width="36dp" android:layout_height="match_parent"
+                    android:text="C" android:gravity="center" android:textSize="16sp"
+                    android:textStyle="bold" android:textColor="@color/primary"/>
+                <EditText android:id="@+id/et_option_c"
+                    android:layout_width="0dp" android:layout_height="match_parent"
+                    android:layout_weight="1" android:textSize="15sp"
+                    android:background="@color/surface" android:padding="12dp"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="52dp"
+                android:orientation="horizontal" android:layout_marginBottom="20dp">
+                <TextView android:layout_width="36dp" android:layout_height="match_parent"
+                    android:text="D" android:gravity="center" android:textSize="16sp"
+                    android:textStyle="bold" android:textColor="@color/primary"/>
+                <EditText android:id="@+id/et_option_d"
+                    android:layout_width="0dp" android:layout_height="match_parent"
+                    android:layout_weight="1" android:textSize="15sp"
+                    android:background="@color/surface" android:padding="12dp"/>
+            </LinearLayout>
+
+            <!-- 答案选择 -->
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="正确答案" android:textSize="14sp" android:textStyle="bold"
+                android:textColor="@color/text_muted" android:layout_marginBottom="8dp"/>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="52dp"
+                android:orientation="horizontal" android:layout_marginBottom="24dp">
+                <Button android:id="@+id/btn_a" android:layout_width="0dp"
+                    android:layout_height="match_parent" android:layout_weight="1"
+                    android:text="A" android:textSize="18sp" android:textStyle="bold"
+                    style="?attr/borderlessButtonStyle"/>
+                <Button android:id="@+id/btn_b" android:layout_width="0dp"
+                    android:layout_height="match_parent" android:layout_weight="1"
+                    android:text="B" android:textSize="18sp" android:textStyle="bold"
+                    style="?attr/borderlessButtonStyle"/>
+                <Button android:id="@+id/btn_c" android:layout_width="0dp"
+                    android:layout_height="match_parent" android:layout_weight="1"
+                    android:text="C" android:textSize="18sp" android:textStyle="bold"
+                    style="?attr/borderlessButtonStyle"/>
+                <Button android:id="@+id/btn_d" android:layout_width="0dp"
+                    android:layout_height="match_parent" android:layout_weight="1"
+                    android:text="D" android:textSize="18sp" android:textStyle="bold"
+                    style="?attr/borderlessButtonStyle"/>
+            </LinearLayout>
+
+            <!-- 操作按钮 -->
+            <LinearLayout android:layout_width="match_parent" android:layout_height="52dp"
+                android:orientation="horizontal">
+                <Button android:id="@+id/btn_clear"
+                    android:layout_width="0dp" android:layout_height="match_parent"
+                    android:layout_weight="1" android:text="清空"
+                    android:backgroundTint="@color/btn_option"
+                    android:textColor="@color/text_muted" android:textSize="15sp"/>
+                <Space android:layout_width="12dp" android:layout_height="match_parent"/>
+                <Button android:id="@+id/btn_save"
+                    android:layout_width="0dp" android:layout_height="match_parent"
+                    android:layout_weight="2" android:text="保存题目"
+                    android:backgroundTint="@color/primary"
+                    android:textColor="@color/white" android:textSize="16sp" android:textStyle="bold"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- 批量导入卡片（默认隐藏） -->
+    <LinearLayout android:id="@+id/card_batch"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:visibility="gone">
+
+        <EditText android:id="@+id/et_batch"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="top|start"
+            android:textSize="14sp"
+            android:background="@color/surface"
+            android:padding="14dp"
+            android:hint="中国首都是哪个城市？&#10;A. 上海&#10;B. 北京&#10;C. 广州&#10;D. 深圳&#10;答案: B&#10;&#10;以下哪项是编程语言？&#10;A. Excel&#10;B. Python&#10;C. Word&#10;D. PowerPoint&#10;答案: B"
+            android:inputType="textMultiLine"
+            android:layout_marginBottom="16dp"/>
+
+        <Button android:id="@+id/btn_batch_import"
+            android:layout_width="match_parent" android:layout_height="52dp"
+            android:text="批量导入" android:textSize="16sp" android:textStyle="bold"
+            android:backgroundTint="@color/primary" android:textColor="@color/white"/>
+    </LinearLayout>
+
+</LinearLayout>
+

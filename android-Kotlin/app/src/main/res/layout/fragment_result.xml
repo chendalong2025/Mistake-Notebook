@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- 正确率 -->
+        <TextView android:id="@+id/tv_score"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="0%" android:textSize="64sp" android:textStyle="bold"
+            android:gravity="center" android:textColor="@color/success"/>
+
+        <!-- 评语 -->
+        <TextView android:id="@+id/tv_comment"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="" android:textSize="13sp" android:textColor="@color/text_muted"
+            android:gravity="center" android:layout_marginBottom="12dp"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="正确率" android:textSize="18sp" android:textStyle="bold"
+            android:textColor="@color/text_muted" android:layout_marginBottom="8dp"/>
+
+        <!-- 统计卡片行 -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="72dp"
+            android:orientation="horizontal" android:layout_marginBottom="16dp">
+            <LinearLayout android:layout_width="0dp" android:layout_height="match_parent"
+                android:layout_weight="1" android:orientation="vertical"
+                android:background="@color/surface" android:gravity="center" android:layout_margin="4dp">
+                <TextView android:id="@+id/tv_total"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="0" android:textSize="24sp" android:textStyle="bold"
+                    android:textColor="@color/text"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="总题数" android:textSize="12sp" android:textColor="@color/text_muted"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="0dp" android:layout_height="match_parent"
+                android:layout_weight="1" android:orientation="vertical"
+                android:background="@color/surface" android:gravity="center" android:layout_margin="4dp">
+                <TextView android:id="@+id/tv_correct"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="0" android:textSize="24sp" android:textStyle="bold"
+                    android:textColor="@color/success"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="答对" android:textSize="12sp" android:textColor="@color/text_muted"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="0dp" android:layout_height="match_parent"
+                android:layout_weight="1" android:orientation="vertical"
+                android:background="@color/surface" android:gravity="center" android:layout_margin="4dp">
+                <TextView android:id="@+id/tv_wrong"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="0" android:textSize="24sp" android:textStyle="bold"
+                    android:textColor="@color/error"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="答错" android:textSize="12sp" android:textColor="@color/text_muted"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="0dp" android:layout_height="match_parent"
+                android:layout_weight="1" android:orientation="vertical"
+                android:background="@color/surface" android:gravity="center" android:layout_margin="4dp">
+                <TextView android:id="@+id/tv_timeout"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="0" android:textSize="24sp" android:textStyle="bold"
+                    android:textColor="@color/warning"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="超时" android:textSize="12sp" android:textColor="@color/text_muted"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- 错题回顾 -->
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="错题回顾" android:textSize="17sp" android:textStyle="bold"
+            android:textColor="@color/text_muted" android:layout_marginBottom="8dp"/>
+
+        <LinearLayout android:id="@+id/detail_container"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+
+        <!-- 按钮行 -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="52dp"
+            android:orientation="horizontal" android:layout_marginTop="16dp">
+            <Button android:id="@+id/btn_back"
+                android:layout_width="0dp" android:layout_height="match_parent"
+                android:layout_weight="1" android:text="回到主页"
+                android:textSize="15sp" android:backgroundTint="@color/btn_option"
+                android:textColor="@color/text_muted"/>
+            <Space android:layout_width="12dp" android:layout_height="match_parent"/>
+            <Button android:id="@+id/btn_retry"
+                android:layout_width="0dp" android:layout_height="match_parent"
+                android:layout_weight="2" android:text="再来一次"
+                android:textSize="16sp" android:backgroundTint="@color/primary"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,409 @@
+﻿package.xml parsing problem. 意外的元素 (uri:"", local:"abis")。所需元素为<{}vendor>,<{}codename>,<{}base-extension>,<{}abi>,<{}api-level>,<{}extension-level>,<{}tag>
+package.xml parsing problem. 意外的元素 (uri:"", local:"translatedAbis")。所需元素为<{}vendor>,<{}codename>,<{}base-extension>,<{}abi>,<{}api-level>,<{}extension-level>,<{}tag>
+package.xml parsing problem. 意外的元素 (uri:"", local:"abis")。所需元素为<{}vendor>,<{}codename>,<{}base-extension>,<{}abi>,<{}api-level>,<{}extension-level>,<{}tag>
+package.xml parsing problem. 意外的元素 (uri:"", local:"translatedAbis")。所需元素为<{}vendor>,<{}codename>,<{}base-extension>,<{}abi>,<{}api-level>,<{}extension-level>,<{}tag>
+Checking the license for package Android SDK Platform 34 in C:\Users\86136\AppData\Local\Android\Sdk\licenses
+License for package Android SDK Platform 34 accepted.
+Preparing "Install Android SDK Platform 34 (revision 3)".
+"Install Android SDK Platform 34 (revision 3)" ready.
+Installing Android SDK Platform 34 in C:\Users\86136\AppData\Local\Android\Sdk\platforms\android-34
+"Install Android SDK Platform 34 (revision 3)" complete.
+"Install Android SDK Platform 34 (revision 3)" finished.
+package.xml parsing problem. 意外的元素 (uri:"", local:"abis")。所需元素为<{}vendor>,<{}codename>,<{}base-extension>,<{}abi>,<{}api-level>,<{}extension-level>,<{}tag>
+package.xml parsing problem. 意外的元素 (uri:"", local:"translatedAbis")。所需元素为<{}vendor>,<{}codename>,<{}base-extension>,<{}abi>,<{}api-level>,<{}extension-level>,<{}tag>
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors
+> Task :app:dataBindingMergeDependencyArtifactsDebug FAILED
+.\gradlew.bat : 
+所在位置 行:1 字符: 1
++ .\gradlew.bat assembleDebug 2>&1 | Out-File -F
+ilePath "build_output3. ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:S 
+   tring) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandErro 
+   r
+ 
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:dataBindingMerge
+DependencyArtifactsDebug'.
+> Configuration `:app:debugRuntimeClasspath` con
+tains AndroidX dependencies, but the `android.us
+eAndroidX` property is not enabled, which may ca
+use runtime issues.
+  Set `android.useAndroidX=true` in the `gradle.
+properties` file and retry.
+  The following AndroidX dependencies are detect
+ed:
+  :app:debugRuntimeClasspath -> androidx.core:co
+re-ktx:1.13.1
+  :app:debugRuntimeClasspath -> androidx.navigat
+ion:navigation-fragment-ktx:2.7.7 -> androidx.na
+vigation:navigation-fragment:2.7.7 -> androidx.n
+avigation:navigation-runtime-ktx:2.7.7 -> androi
+dx.navigation:navigation-runtime:2.7.7 -> androi
+dx.navigation:navigation-common-ktx:2.7.7 -> and
+roidx.navigation:navigation-common:2.7.7 -> andr
+oidx.annotation:annotation:1.8.0
+  :app:debugRuntimeClasspath -> androidx.navigat
+ion:navigation-fragment-ktx:2.7.7 -> androidx.na
+vigation:navigation-fragment:2.7.7 -> androidx.n
+avigation:navigation-runtime-ktx:2.7.7 -> androi
+dx.navigation:navigation-runtime:2.7.7 -> androi
+dx.navigation:navigation-common-ktx:2.7.7 -> and
+roidx.navigation:navigation-common:2.7.7 -> andr
+oidx.annotation:annotation:1.8.0 -> androidx.ann
+otation:annotation-jvm:1.8.0
+  :app:debugRuntimeClasspath -> com.google.andro
+id.material:material:1.12.0 -> androidx.core:cor
+e:1.13.1
+  :app:debugRuntimeClasspath -> androidx.navigat
+ion:navigation-fragment-ktx:2.7.7 -> androidx.na
+vigation:navigation-fragment:2.7.7 -> androidx.n
+avigation:navigation-runtime-ktx:2.7.7 -> androi
+dx.navigation:navigation-common-ktx:2.7.7 -> and
+roidx.navigation:navigation-common:2.7.7 -> andr
+oidx.navigation:navigation-runtime:2.7.7 -> andr
+oidx.annotation:annotation-experimental:1.4.0
+  :app:debugRuntimeClasspath -> androidx.navigat
+ion:navigation-fragment-ktx:2.7.7 -> androidx.na
+vigation:navigation-fragment:2.7.7 -> androidx.n
+avigation:navigation-runtime-ktx:2.7.7 -> androi
+dx.navigation:navigation-common-ktx:2.7.7 -> and
+roidx.navigation:navigation-common:2.7.7 -> andr
+oidx.navigation:navigation-runtime:2.7.7 -> andr
+oidx.collection:collection:1.1.0
+  :app:debugRuntimeClasspath -> com.google.andro
+id.material:material:1.12.0 -> androidx.core:cor
+e:1.13.1 -> androidx.concurrent:concurrent-futur
+es:1.1.0
+  :app:debugRuntimeClasspath -> androidx.appcomp
+at:appcompat:1.6.1 -> androidx.appcompat:appcomp
+at-resources:1.6.1 -> androidx.vectordrawable:ve
+ctordrawable-animated:1.1.0 -> androidx.interpol
+ator:interpolator:1.0.0
+  :app:debugRuntimeClasspath -> com.google.andro
+id.material:material:1.12.0 -> androidx.lifecycl
+e:lifecycle-runtime:2.8.6
+  :app:debugRuntimeClasspath -> com.google.andro
+id.material:material:1.12.0 -> androidx.lifecycl
+e:lifecycle-runtime:2.8.6 -> androidx.lifecycle:
+lifecycle-runtime-android:2.8.6
+  :app:debugRuntimeClasspath -> androidx.appcomp
+at:appcompat:1.6.1 -> androidx.savedstate:saveds
+tate:1.2.1 -> androidx.arch.core:core-common:2.2
+.0
+  :app:debugRuntimeClasspath -> com.google.andro
+id.material:material:1.12.0 -> androidx.lifecycl
+e:lifecycle-runtime:2.8.6 -> androidx.lifecycle:
+lifecycle-runtime-android:2.8.6 -> androidx.arch
+.core:core-runtime:2.2.0
+  :app:debugRuntimeClasspath -> androidx.navigat
+ion:navigation-fragment-ktx:2.7.7 -> androidx.na
+vigation:navigation-fragment:2.7.7 -> androidx.n
+avigation:navigation-runtime-ktx:2.7.7 -> androi
+dx.navigation:navigation-runtime:2.7.7 -> androi
+dx.navigation:navigation-common-ktx:2.7.7 -> and
+roidx.navigation:navigation-common:2.7.7 -> andr
+oidx.lifecycle:lifecycle-common:2.8.6
+  :app:debugRuntimeClasspath -> androidx.navigat
+ion:navigation-fragment-ktx:2.7.7 -> androidx.na
+vigation:navigation-fragment:2.7.7 -> androidx.n
+avigation:navigation-runtime-ktx:2.7.7 -> androi
+dx.navigation:navigation-runtime:2.7.7 -> androi
+dx.navigation:navigation-common-ktx:2.7.7 -> and
+roidx.navigation:navigation-common:2.7.7 -> andr
+oidx.lifecycle:lifecycle-common:2.8.6 -> android
+x.lifecycle:lifecycle-common-jvm:2.8.6
+  :app:debugRuntimeClasspath -> com.google.andro
+id.material:material:1.12.0 -> androidx.fragment
+:fragment:1.8.4 -> androidx.loader:loader:1.0.0 
+-> androidx.lifecycle:lifecycle-livedata:2.8.6
+  :app:debugRuntimeClasspath -> com.google.andro
+id.material:material:1.12.0 -> androidx.fragment
+:fragment:1.8.4 -> androidx.lifecycle:lifecycle-
+livedata-core:2.8.6
+  :app:debugRuntimeClasspath -> androidx.fragmen
+t:fragment-ktx:1.8.4 -> androidx.lifecycle:lifec
+ycle-livedata-core-ktx:2.8.6
+  :app:debugRuntimeClasspath -> androidx.lifecyc
+le:lifecycle-livedata-ktx:2.8.6
+  :app:debugRuntimeClasspath -> androidx.navigat
+ion:navigation-fragment-ktx:2.7.7 -> androidx.na
+vigation:navigation-fragment:2.7.7 -> androidx.n
+avigation:navigation-runtime-ktx:2.7.7 -> androi
+dx.navigation:navigation-runtime:2.7.7 -> androi
+dx.navigation:navigation-common-ktx:2.7.7 -> and
+roidx.navigation:navigation-common:2.7.7 -> andr
+oidx.lifecycle:lifecycle-runtime-ktx:2.8.6
+  :app:debugRuntimeClasspath -> androidx.navigat
+ion:navigation-fragment-ktx:2.7.7 -> androidx.na
+vigation:navigation-fragment:2.7.7 -> androidx.n
+avigation:navigation-runtime-ktx:2.7.7 -> androi
+dx.navigation:navigation-runtime:2.7.7 -> androi
+dx.navigation:navigation-common-ktx:2.7.7 -> and
+roidx.navigation:navigation-common:2.7.7 -> andr
+oidx.lifecycle:lifecycle-runtime-ktx:2.8.6 -> an
+droidx.lifecycle:lifecycle-runtime-ktx-android:2
+.8.6
+  :app:debugRuntimeClasspath -> androidx.appcomp
+at:appcompat:1.6.1 -> androidx.emoji2:emoji2:1.2
+.0 -> androidx.lifecycle:lifecycle-process:2.8.6
+  :app:debugRuntimeClasspath -> androidx.appcomp
+at:appcompat:1.6.1 -> androidx.emoji2:emoji2:1.2
+.0 -> androidx.startup:startup-runtime:1.1.1
+  :app:debugRuntimeClasspath -> com.google.andro
+id.material:material:1.12.0 -> androidx.activity
+:activity:1.9.2 -> androidx.tracing:tracing:1.0.
+0
+  :app:debugRuntimeClasspath -> androidx.appcomp
+at:appcompat:1.6.1 -> androidx.lifecycle:lifecyc
+le-viewmodel:2.8.6
+  :app:debugRuntimeClasspath -> androidx.appcomp
+at:appcompat:1.6.1 -> androidx.lifecycle:lifecyc
+le-viewmodel:2.8.6 -> androidx.lifecycle:lifecyc
+le-viewmodel-android:2.8.6
+  :app:debugRuntimeClasspath -> androidx.lifecyc
+le:lifecycle-viewmodel-ktx:2.8.6
+  :app:debugRuntimeClasspath -> androidx.navigat
+ion:navigation-fragment-ktx:2.7.7 -> androidx.na
+vigation:navigation-fragment:2.7.7 -> androidx.n
+avigation:navigation-runtime-ktx:2.7.7 -> androi
+dx.navigation:navigation-runtime:2.7.7 -> androi
+dx.navigation:navigation-common-ktx:2.7.7 -> and
+roidx.navigation:navigation-common:2.7.7 -> andr
+oidx.lifecycle:lifecycle-viewmodel-savedstate:2.
+8.6
+  :app:debugRuntimeClasspath -> androidx.appcomp
+at:appcompat:1.6.1 -> androidx.savedstate:saveds
+tate:1.2.1
+  :app:debugRuntimeClasspath -> androidx.navigat
+ion:navigation-fragment-ktx:2.7.7 -> androidx.na
+vigation:navigation-fragment:2.7.7 -> androidx.n
+avigation:navigation-runtime-ktx:2.7.7 -> androi
+dx.navigation:navigation-runtime:2.7.7 -> androi
+dx.navigation:navigation-common-ktx:2.7.7 -> and
+roidx.navigation:navigation-common:2.7.7 -> andr
+oidx.savedstate:savedstate-ktx:1.2.1
+  :app:debugRuntimeClasspath -> androidx.navigat
+ion:navigation-fragment-ktx:2.7.7 -> androidx.na
+vigation:navigation-fragment:2.7.7 -> androidx.n
+avigation:navigation-runtime-ktx:2.7.7 -> androi
+dx.navigation:navigation-runtime:2.7.7 -> androi
+dx.navigation:navigation-common-ktx:2.7.7 -> and
+roidx.navigation:navigation-common:2.7.7 -> andr
+oidx.profileinstaller:profileinstaller:1.3.1
+  :app:debugRuntimeClasspath -> com.google.andro
+id.material:material:1.12.0 -> androidx.core:cor
+e:1.13.1 -> androidx.versionedparcelable:version
+edparcelable:1.1.1
+  :app:debugRuntimeClasspath -> androidx.appcomp
+at:appcompat:1.6.1
+  :app:debugRuntimeClasspath -> com.google.andro
+id.material:material:1.12.0 -> androidx.activity
+:activity:1.9.2
+  :app:debugRuntimeClasspath -> androidx.activit
+y:activity-ktx:1.9.2
+  :app:debugRuntimeClasspath -> androidx.appcomp
+at:appcompat:1.6.1 -> androidx.appcompat:appcomp
+at-resources:1.6.1
+  :app:debugRuntimeClasspath -> com.google.andro
+id.material:material:1.12.0 -> androidx.vectordr
+awable:vectordrawable:1.1.0
+  :app:debugRuntimeClasspath -> androidx.appcomp
+at:appcompat:1.6.1 -> androidx.appcompat:appcomp
+at-resources:1.6.1 -> androidx.vectordrawable:ve
+ctordrawable-animated:1.1.0
+  :app:debugRuntimeClasspath -> androidx.appcomp
+at:appcompat:1.6.1 -> androidx.cursoradapter:cur
+soradapter:1.0.0
+  :app:debugRuntimeClasspath -> androidx.navigat
+ion:navigation-fragment-ktx:2.7.7 -> androidx.na
+vigation:navigation-fragment:2.7.7 -> androidx.n
+avigation:navigation-runtime-ktx:2.7.7 -> androi
+dx.navigation:navigation-runtime:2.7.7 -> androi
+dx.navigation:navigation-common-ktx:2.7.7 -> and
+roidx.navigation:navigation-common:2.7.7 -> andr
+oidx.navigation:navigation-ui:2.7.7 -> androidx.
+drawerlayout:drawerlayout:1.1.1
+  :app:debugRuntimeClasspath -> androidx.navigat
+ion:navigation-fragment-ktx:2.7.7 -> androidx.na
+vigation:navigation-fragment:2.7.7 -> androidx.n
+avigation:navigation-runtime-ktx:2.7.7 -> androi
+dx.navigation:navigation-runtime:2.7.7 -> androi
+dx.navigation:navigation-common-ktx:2.7.7 -> and
+roidx.navigation:navigation-common:2.7.7 -> andr
+oidx.navigation:navigation-ui:2.7.7 -> androidx.
+customview:customview:1.1.0
+  :app:debugRuntimeClasspath -> androidx.appcomp
+at:appcompat:1.6.1 -> androidx.emoji2:emoji2:1.2
+.0
+  :app:debugRuntimeClasspath -> androidx.appcomp
+at:appcompat:1.6.1 -> androidx.emoji2:emoji2-vie
+ws-helper:1.2.0
+  :app:debugRuntimeClasspath -> com.google.andro
+id.material:material:1.12.0 -> androidx.fragment
+:fragment:1.8.4
+  :app:debugRuntimeClasspath -> com.google.andro
+id.material:material:1.12.0 -> androidx.fragment
+:fragment:1.8.4 -> androidx.loader:loader:1.0.0
+  :app:debugRuntimeClasspath -> com.google.andro
+id.material:material:1.12.0 -> androidx.fragment
+:fragment:1.8.4 -> androidx.viewpager:viewpager:
+1.0.0
+  :app:debugRuntimeClasspath -> androidx.fragmen
+t:fragment-ktx:1.8.4
+  :app:debugRuntimeClasspath -> androidx.navigat
+ion:navigation-fragment-ktx:2.7.7 -> androidx.na
+vigation:navigation-fragment:2.7.7 -> androidx.n
+avigation:navigation-runtime-ktx:2.7.7 -> androi
+dx.navigation:navigation-runtime:2.7.7 -> androi
+dx.navigation:navigation-common-ktx:2.7.7 -> and
+roidx.navigation:navigation-common:2.7.7 -> andr
+oidx.collection:collection-ktx:1.1.0
+  :app:debugRuntimeClasspath -> com.google.andro
+id.material:material:1.12.0 -> androidx.resource
+inspection:resourceinspection-annotation:1.0.1
+  :app:debugRuntimeClasspath -> com.google.andro
+id.material:material:1.12.0
+  :app:debugRuntimeClasspath -> com.google.andro
+id.material:material:1.12.0 -> androidx.cardview
+:cardview:1.0.0
+  :app:debugRuntimeClasspath -> com.google.andro
+id.material:material:1.12.0 -> androidx.coordina
+torlayout:coordinatorlayout:1.1.0
+  :app:debugRuntimeClasspath -> com.google.andro
+id.material:material:1.12.0 -> androidx.constrai
+ntlayout:constraintlayout:2.0.1
+  :app:debugRuntimeClasspath -> com.google.andro
+id.material:material:1.12.0 -> androidx.constrai
+ntlayout:constraintlayout:2.0.1 -> androidx.cons
+traintlayout:constraintlayout-solver:2.0.1
+  :app:debugRuntimeClasspath -> com.google.andro
+id.material:material:1.12.0 -> androidx.dynamica
+nimation:dynamicanimation:1.0.0
+  :app:debugRuntimeClasspath -> com.google.andro
+id.material:material:1.12.0 -> androidx.dynamica
+nimation:dynamicanimation:1.0.0 -> androidx.lega
+cy:legacy-support-core-utils:1.0.0
+  :app:debugRuntimeClasspath -> com.google.andro
+id.material:material:1.12.0 -> androidx.dynamica
+nimation:dynamicanimation:1.0.0 -> androidx.lega
+cy:legacy-support-core-utils:1.0.0 -> androidx.d
+ocumentfile:documentfile:1.0.0
+  :app:debugRuntimeClasspath -> com.google.andro
+id.material:material:1.12.0 -> androidx.dynamica
+nimation:dynamicanimation:1.0.0 -> androidx.lega
+cy:legacy-support-core-utils:1.0.0 -> androidx.l
+ocalbroadcastmanager:localbroadcastmanager:1.0.0
+  :app:debugRuntimeClasspath -> com.google.andro
+id.material:material:1.12.0 -> androidx.dynamica
+nimation:dynamicanimation:1.0.0 -> androidx.lega
+cy:legacy-support-core-utils:1.0.0 -> androidx.p
+rint:print:1.0.0
+  :app:debugRuntimeClasspath -> com.google.andro
+id.material:material:1.12.0 -> androidx.recycler
+view:recyclerview:1.1.0
+  :app:debugRuntimeClasspath -> androidx.navigat
+ion:navigation-fragment-ktx:2.7.7 -> androidx.na
+vigation:navigation-fragment:2.7.7 -> androidx.n
+avigation:navigation-runtime-ktx:2.7.7 -> androi
+dx.navigation:navigation-runtime:2.7.7 -> androi
+dx.navigation:navigation-common-ktx:2.7.7 -> and
+roidx.navigation:navigation-common:2.7.7 -> andr
+oidx.navigation:navigation-ui:2.7.7 -> androidx.
+transition:transition:1.5.0
+  :app:debugRuntimeClasspath -> com.google.andro
+id.material:material:1.12.0 -> androidx.viewpage
+r2:viewpager2:1.0.0
+  :app:debugRuntimeClasspath -> androidx.navigat
+ion:navigation-fragment-ktx:2.7.7
+  :app:debugRuntimeClasspath -> androidx.navigat
+ion:navigation-fragment-ktx:2.7.7 -> androidx.na
+vigation:navigation-runtime-ktx:2.7.7 -> android
+x.navigation:navigation-runtime:2.7.7 -> android
+x.navigation:navigation-common-ktx:2.7.7 -> andr
+oidx.navigation:navigation-common:2.7.7 -> andro
+idx.navigation:navigation-fragment:2.7.7
+  :app:debugRuntimeClasspath -> androidx.navigat
+ion:navigation-fragment-ktx:2.7.7 -> androidx.na
+vigation:navigation-fragment:2.7.7 -> androidx.n
+avigation:navigation-runtime-ktx:2.7.7 -> androi
+dx.navigation:navigation-common-ktx:2.7.7 -> and
+roidx.navigation:navigation-common:2.7.7 -> andr
+oidx.navigation:navigation-runtime:2.7.7
+  :app:debugRuntimeClasspath -> androidx.navigat
+ion:navigation-fragment-ktx:2.7.7 -> androidx.na
+vigation:navigation-fragment:2.7.7 -> androidx.n
+avigation:navigation-runtime-ktx:2.7.7 -> androi
+dx.navigation:navigation-runtime:2.7.7 -> androi
+dx.navigation:navigation-common-ktx:2.7.7 -> and
+roidx.navigation:navigation-common:2.7.7
+  :app:debugRuntimeClasspath -> androidx.navigat
+ion:navigation-fragment-ktx:2.7.7 -> androidx.na
+vigation:navigation-fragment:2.7.7 -> androidx.n
+avigation:navigation-runtime-ktx:2.7.7 -> androi
+dx.navigation:navigation-runtime:2.7.7 -> androi
+dx.navigation:navigation-common:2.7.7 -> android
+x.navigation:navigation-common-ktx:2.7.7
+  :app:debugRuntimeClasspath -> androidx.navigat
+ion:navigation-fragment-ktx:2.7.7 -> androidx.na
+vigation:navigation-fragment:2.7.7 -> androidx.n
+avigation:navigation-runtime:2.7.7 -> androidx.n
+avigation:navigation-common-ktx:2.7.7 -> android
+x.navigation:navigation-common:2.7.7 -> androidx
+.navigation:navigation-runtime-ktx:2.7.7
+  :app:debugRuntimeClasspath -> androidx.navigat
+ion:navigation-fragment-ktx:2.7.7 -> androidx.na
+vigation:navigation-fragment:2.7.7 -> androidx.n
+avigation:navigation-runtime-ktx:2.7.7 -> androi
+dx.navigation:navigation-runtime:2.7.7 -> androi
+dx.navigation:navigation-common-ktx:2.7.7 -> and
+roidx.navigation:navigation-common:2.7.7 -> andr
+oidx.navigation:navigation-ui:2.7.7
+  :app:debugRuntimeClasspath -> androidx.navigat
+ion:navigation-ui-ktx:2.7.7
+  :app:debugRuntimeClasspath -> androidx.navigat
+ion:navigation-fragment-ktx:2.7.7 -> androidx.na
+vigation:navigation-runtime-ktx:2.7.7 -> android
+x.navigation:navigation-runtime:2.7.7 -> android
+x.navigation:navigation-common-ktx:2.7.7 -> andr
+oidx.navigation:navigation-common:2.7.7 -> andro
+idx.navigation:navigation-fragment:2.7.7 -> andr
+oidx.slidingpanelayout:slidingpanelayout:1.2.0
+  :app:debugRuntimeClasspath -> androidx.navigat
+ion:navigation-fragment-ktx:2.7.7 -> androidx.na
+vigation:navigation-runtime-ktx:2.7.7 -> android
+x.navigation:navigation-runtime:2.7.7 -> android
+x.navigation:navigation-common-ktx:2.7.7 -> andr
+oidx.navigation:navigation-common:2.7.7 -> andro
+idx.navigation:navigation-fragment:2.7.7 -> andr
+oidx.slidingpanelayout:slidingpanelayout:1.2.0 -
+> androidx.window:window:1.0.0
+  :app:debugRuntimeClasspath -> androidx.room:ro
+om-runtime:2.6.1
+  :app:debugRuntimeClasspath -> androidx.room:ro
+om-runtime:2.6.1 -> androidx.room:room-common:2.
+6.1
+  :app:debugRuntimeClasspath -> androidx.room:ro
+om-ktx:2.6.1
+  :app:debugRuntimeClasspath -> androidx.room:ro
+om-runtime:2.6.1 -> androidx.sqlite:sqlite:2.4.0
+  :app:debugRuntimeClasspath -> androidx.room:ro
+om-runtime:2.6.1 -> androidx.sqlite:sqlite-frame
+work:2.4.0
+
+* Try:
+> Run with --stacktrace option to get the stack 
+trace.
+> Run with --info or --debug option to get more 
+log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 1m 12s
+2 actionable tasks: 2 executed

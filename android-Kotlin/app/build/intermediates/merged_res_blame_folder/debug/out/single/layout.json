@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "C:\\Users\\86136\\.gradle\\daemon\\8.9\\com.mistakenotebook.app-mergeDebugResources-51:\\layout\\fragment_result.xml",
+        "source": "C:\\Users\\86136\\.gradle\\daemon\\8.9\\com.mistakenotebook.app-main-54:\\layout\\fragment_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\86136\\.gradle\\daemon\\8.9\\com.mistakenotebook.app-mergeDebugResources-51:\\layout\\dialog_edit_question.xml",
+        "source": "C:\\Users\\86136\\.gradle\\daemon\\8.9\\com.mistakenotebook.app-main-54:\\layout\\dialog_edit_question.xml"
+    },
+    {
+        "merged": "C:\\Users\\86136\\.gradle\\daemon\\8.9\\com.mistakenotebook.app-mergeDebugResources-51:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\86136\\.gradle\\daemon\\8.9\\com.mistakenotebook.app-main-54:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "com.mistakenotebook.app-mergeDebugResources-51:/layout/fragment_add.xml",
+        "source": "com.mistakenotebook.app-main-54:/layout/fragment_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\86136\\.gradle\\daemon\\8.9\\com.mistakenotebook.app-mergeDebugResources-51:\\layout\\fragment_add.xml",
+        "source": "C:\\Users\\86136\\.gradle\\daemon\\8.9\\com.mistakenotebook.app-main-54:\\layout\\fragment_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\86136\\.gradle\\daemon\\8.9\\com.mistakenotebook.app-mergeDebugResources-51:\\layout\\item_question.xml",
+        "source": "C:\\Users\\86136\\.gradle\\daemon\\8.9\\com.mistakenotebook.app-main-54:\\layout\\item_question.xml"
+    },
+    {
+        "merged": "C:\\Users\\86136\\.gradle\\daemon\\8.9\\com.mistakenotebook.app-mergeDebugResources-51:\\layout\\fragment_question_bank.xml",
+        "source": "C:\\Users\\86136\\.gradle\\daemon\\8.9\\com.mistakenotebook.app-main-54:\\layout\\fragment_question_bank.xml"
+    },
+    {
+        "merged": "C:\\Users\\86136\\.gradle\\daemon\\8.9\\com.mistakenotebook.app-mergeDebugResources-51:\\layout\\fragment_quiz.xml",
+        "source": "C:\\Users\\86136\\.gradle\\daemon\\8.9\\com.mistakenotebook.app-main-54:\\layout\\fragment_quiz.xml"
+    }
+]
